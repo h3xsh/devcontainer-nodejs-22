@@ -1,0 +1,21 @@
+
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "h3xsh-devcontainer-nodejs-22",
+	// "remoteUser": "dev",
+	"image": "h3xsh/image:nodejs-22",
+
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+                "h3xsh.h3xsh-vscode-theme"
+			]
+		}
+	},
+	"postCreateCommand": "npm ci"
+}
